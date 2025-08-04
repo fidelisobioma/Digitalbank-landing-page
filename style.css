@@ -94,7 +94,6 @@ body {
 .navbar ul li {
   text-align: center;
   padding-top: 16px;
-  /* border: 1px solid red; */
 }
 .navbar ul li a {
   text-decoration: none;
@@ -121,28 +120,21 @@ body {
 }
 .intro {
   padding: 0 24px;
-  /* padding-bottom: 72px; */
   padding-bottom: 56px;
-  /* transform: translateY(-20vh); */
   margin-top: -20vh;
   background-image: url("images/bg-intro-mobile.svg");
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
   display: grid;
-  /* border: 1px solid red; */
-  /* justify-content: center; */
 }
-.intro .image {
-  /* border: 1px solid red; */
-}
+
 .intro .text {
   max-width: 327px;
   margin-top: 48px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  /* border: 1px solid red; */
 }
 .intro .text h1 {
   font-size: 40px;
@@ -186,7 +178,6 @@ main .container {
 .title {
   max-width: 327px;
   margin: auto;
-  /* border: 1px solid red; */
 }
 .container .title h2 {
   font-size: 32px;
@@ -206,6 +197,10 @@ main .container {
   letter-spacing: 0;
   text-align: center;
   color: var(--gray-600);
+}
+.features-cntainer {
+  display: grid;
+  justify-content: center;
 }
 
 .features-cntainer .feature {
@@ -594,7 +589,8 @@ footer button {
   footer button {
     margin-top: 0;
   }
-  footer button:hover {
+  footer button:hover,
+  footer button:focus {
     opacity: 66%;
   }
 }
