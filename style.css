@@ -62,7 +62,7 @@ body {
 }
 
 .overlay {
-  padding: 24px;
+  padding: 1.5rem;
   position: fixed;
   left: 0;
   right: 0;
@@ -87,13 +87,13 @@ body {
   min-height: 265px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 24px auto;
+  margin: 1.5rem auto;
   list-style: none;
-  padding: 30.5px;
+  padding: 1.9rem;
 }
 .navbar ul li {
   text-align: center;
-  padding-top: 16px;
+  padding-top: 1rem;
 }
 .navbar ul li a {
   text-decoration: none;
@@ -101,7 +101,7 @@ body {
   font-size: 1.125rem;
   line-height: 155%;
   font-weight: normal;
-  letter-spacing: -0.25px;
+  letter-spacing: -0.016rem;
   outline: none;
 }
 
@@ -109,7 +109,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 21.54px 24px;
+  padding: 1.34rem 1.5rem;
   background-color: var(--white);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -119,9 +119,11 @@ body {
   display: none;
 }
 .intro {
-  padding: 0 24px;
-  padding-bottom: 56px;
-  margin-top: -20vh;
+  padding: 0 1.5rem;
+  padding-bottom: 3.5rem;
+  margin-top: -25%;
+  /* transform: translateY(-15%); */
+  /* margin-bottom: -15%; */
   background-image: url("images/bg-intro-mobile.svg");
   background-repeat: no-repeat;
   background-position: top right;
@@ -137,18 +139,18 @@ body {
   margin-right: auto;
 }
 .intro .text h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 120%;
-  letter-spacing: -0.75px;
+  letter-spacing: -0.046rem;
   font-weight: 300;
   text-align: center;
   color: var(--blue);
 }
 .intro .text p {
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.9rem;
   line-height: 115%;
   letter-spacing: 0;
   text-align: center;
@@ -157,10 +159,10 @@ body {
 .intro .text button {
   color: var(--white);
   font-size: var(--blue);
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: bold;
   line-height: 200%;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   background-image: linear-gradient(hsl(136, 64%, 51%), hsl(192, 69%, 51%));
   outline: none;
   border: none;
@@ -172,7 +174,7 @@ body {
   display: none;
 }
 main .container {
-  padding: 64px 24px;
+  padding: 4rem 1.5rem;
   background-color: var(--gray-100);
 }
 .title {
@@ -180,19 +182,19 @@ main .container {
   margin: auto;
 }
 .container .title h2 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 300;
   line-height: 120%;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.03125rem;
   color: var(--blue);
   text-align: center;
 }
 .container .title p {
   text-align: center;
-  margin-top: 16px;
-  margin-bottom: 24px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.9rem;
   line-height: 115%;
   letter-spacing: 0;
   text-align: center;
@@ -209,7 +211,7 @@ main .container {
   max-width: 327px;
 }
 .feature {
-  margin-top: 32px;
+  margin-top: 2rem;
 }
 .feature .image {
   width: 72px;
@@ -217,42 +219,42 @@ main .container {
   margin: auto;
 }
 .feature h3 {
-  font-weight: 300px;
-  font-size: 24px;
+  font-weight: 300;
+  font-size: 0.9rem;
   line-height: 115%;
-  line-height: -0.4px;
-  margin-top: 40px;
+  line-height: -0.025rem;
+  margin-top: 2.5rem;
   text-align: center;
   color: var(--blue);
 }
 .feature p {
   text-align: center;
-  margin-top: 16px;
+  margin-top: 1rem;
   margin-bottom: 24px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.9rem;
   line-height: 115%;
   letter-spacing: 0;
   text-align: center;
   color: var(--gray-600);
 }
 .article {
-  padding: 64px 24px;
+  padding: 4rem 1.5rem;
   background-color: var(--gray-50);
 }
 .article h2 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 300;
   line-height: 120%;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.03125rem;
   color: var(--blue);
   text-align: center;
 }
 .article-container {
-  margin-top: 48px;
+  margin-top: 3rem;
   background-color: var(--gray-50);
   display: grid;
-  gap: 16px;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
 }
@@ -264,20 +266,20 @@ main .container {
   border-radius: 8px 8px 0 0;
 }
 .blog .description {
-  padding: 24px 31px;
+  padding: 1.5rem 1.938rem;
 }
 .description span {
-  font-size: 10px;
+  font-size: 0.625rem;
   color: var(--gray-600);
   font-weight: 400;
   line-height: 115%;
   letter-spacing: 0;
 }
 .description h3 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 120%;
-  letter-spacing: -0.25px;
+  letter-spacing: -0.015625rem;
   margin-top: 16px;
   color: var(--blue);
 }
@@ -294,7 +296,7 @@ main .container {
 }
 footer {
   background-color: var(--blue);
-  padding: 54.82px 0;
+  padding: 3.4rem 0;
 }
 
 .footer-container .logo {
@@ -304,8 +306,8 @@ footer {
 .socails {
   display: flex;
   justify-content: center;
-  gap: 16px;
-  margin: 32px 0;
+  gap: 1rem;
+  margin: 2rem 0;
 }
 .socails img {
   width: 20px;
@@ -318,16 +320,16 @@ footer ul {
   list-style: none;
   text-align: center;
   display: grid;
-  gap: 16px;
+  gap: 1rem;
 }
 .links-2 {
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 
 footer ul li a {
   text-decoration: none;
   color: var(--white);
-  font-size: 14px;
+  font-size: 0.9rem;
   line-height: 115%;
   letter-spacing: 0;
   font-weight: 400;
@@ -335,71 +337,72 @@ footer ul li a {
 footer button {
   color: var(--white);
   font-size: var(--blue);
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: bold;
   line-height: 200%;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   background-image: linear-gradient(hsl(136, 64%, 51%), hsl(192, 69%, 51%));
   outline: none;
   border: none;
   padding: 0.5rem 2rem;
-  border-radius: 22px;
-  margin: 32px 0;
+  border-radius: 1.375rem;
+  margin: 2rem 0;
 }
 
 .footer-container p {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.9rem;
   line-height: 115%;
   letter-spacing: 0;
   color: var(--gray-600);
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .navbarHeader {
-    padding: 21.54px 80px;
+    padding: 1.346rem 8rem;
   }
   .navbar ul {
     max-width: 607px;
   }
   .intro {
-    transform: translateY(-24vh);
+    margin-top: -35%;
     background-image: url("images/bg-intro-desktop.svg");
     background-position: top center;
     position: relative;
+    padding-bottom: 4.5rem;
   }
   .intro .image {
-    padding: 80px;
+    padding: 5rem;
   }
   .intro .text {
     max-width: 447px;
     margin-left: 0;
   }
   .intro .text h1 {
-    font-size: 56px;
-    letter-spacing: -1px;
+    font-size: 3.5rem;
+    letter-spacing: -0.0625rem;
     line-height: 120%;
   }
   .intro .text p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   main .container {
-    padding: 80px;
+    padding: 5rem;
   }
   .container .title h2 {
-    font-size: 40px;
-    letter-spacing: -0.75px;
+    font-size: 2.5rem;
+    letter-spacing: -0.046875rem;
   }
   .container .title {
     max-width: 518px;
   }
   .article {
-    padding: 80px;
+    padding: 5rem;
   }
   .features-cntainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 56px;
+    gap: 3.5rem;
   }
 
   .feature h3,
@@ -414,7 +417,7 @@ footer button {
     align-items: stretch;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .navbar {
     display: none;
   }
@@ -424,8 +427,8 @@ footer button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 5rem;
+    padding-right: 5rem;
     background-color: var(--white);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1;
@@ -440,8 +443,8 @@ footer button {
     gap: 2rem;
   }
   .deskNavbar ul li {
-    padding-top: 29.54px;
-    padding-bottom: 29.54px;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
     position: relative;
   }
 
@@ -451,7 +454,7 @@ footer button {
     font-size: 1.125rem;
     line-height: 115%;
     font-weight: normal;
-    letter-spacing: -0.25px;
+    letter-spacing: -0.015625rem;
     outline: none;
   }
   .deskNavbar ul li ::after {
@@ -480,7 +483,7 @@ footer button {
   .deskNavbar button {
     color: var(--white);
     font-size: var(--blue);
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: bold;
     line-height: 200%;
     letter-spacing: 0px;
@@ -488,7 +491,7 @@ footer button {
     outline: none;
     border: none;
     padding: 0.5rem 2rem;
-    border-radius: 22px;
+    border-radius: 1.375rem;
   }
   .deskNavbar button:hover,
   .deskNavbar button:focus {
@@ -501,11 +504,13 @@ footer button {
     align-items: center;
     justify-content: space-between;
     background-image: none;
-    transform: translateY(0);
-    padding: 80px;
+    margin: 0;
+    padding: 5rem;
   }
   .intro .image {
     transform: translate(30%);
+    margin-top: -30%;
+
     padding: 0;
     order: 2;
   }
@@ -522,7 +527,7 @@ footer button {
     width: 78%;
     position: absolute;
     z-index: -1;
-    top: -10%;
+    top: -30%;
     right: -25%;
   }
   .intro .text button:hover {
@@ -554,7 +559,7 @@ footer button {
     cursor: pointer;
   }
   footer {
-    padding: 80px;
+    padding: 5rem;
     text-align: left;
   }
   footer ul {
@@ -564,7 +569,7 @@ footer button {
     display: flex;
     justify-content: center;
     align-items: start;
-    gap: 120px;
+    gap: 7.5rem;
   }
   .footer-container ul li {
     padding: 0;
@@ -573,7 +578,7 @@ footer button {
     color: var(--green);
   }
   .socails {
-    margin-top: 56px;
+    margin-top: 3.5rem;
     justify-content: start;
   }
   .socails img:hover {
