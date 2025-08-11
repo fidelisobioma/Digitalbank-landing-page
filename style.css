@@ -23,7 +23,7 @@
   width: 100%;
   overflow: hidden;
 }
-.fixwrapper {
+.fixbody {
   position: fixed;
 }
 img {
@@ -118,12 +118,13 @@ body {
 .deskNavbar {
   display: none;
 }
+.intro-container {
+  background-color: var(--white);
+}
 .intro {
   padding: 0 1.5rem;
   padding-bottom: 3.5rem;
   margin-top: -25%;
-  /* transform: translateY(-15%); */
-  /* margin-bottom: -15%; */
   background-image: url("images/bg-intro-mobile.svg");
   background-repeat: no-repeat;
   background-position: top right;
@@ -297,6 +298,7 @@ main .container {
 footer {
   background-color: var(--blue);
   padding: 3.4rem 0;
+  text-align: center;
 }
 
 .footer-container .logo {
@@ -313,9 +315,7 @@ footer {
   width: 20px;
   height: 20px;
 }
-footer {
-  text-align: center;
-}
+
 footer ul {
   list-style: none;
   text-align: center;
@@ -421,17 +421,24 @@ footer button {
   .navbar {
     display: none;
   }
+
   .deskNavbar {
     position: relative;
     display: block;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    z-index: 1;
+    background-color: var(--white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .deskNavbarcontainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    background-color: var(--white);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1;
+    max-width: 81rem;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
   }
   .deskNavbar .logo {
     width: 154px;

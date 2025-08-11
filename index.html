@@ -7,36 +7,36 @@
     <title>Digitalbank landing page</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <nav>
-          <div class="navbar">
-            <div class="navbarHeader">
-              <div class="logo">
-                <img src="images\logo-dark.svg" alt="Digitalbank" />
-              </div>
-
-              <div class="menu">
-                <div id="hamburger" class="icon-btn">
-                  <img src="images/icon-hamburger.svg" alt="hamburger" />
-                </div>
-                <div id="close" class="icon-btn hidden">
-                  <img src="images/icon-close.svg" alt="close" />
-                </div>
-              </div>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="navbarHeader">
+            <div class="logo">
+              <img src="images\logo-dark.svg" alt="Digitalbank" />
             </div>
-            <div class="overlay">
-              <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#career">Careers</a></li>
-              </ul>
+
+            <div class="menu">
+              <div id="hamburger" class="icon-btn">
+                <img src="images/icon-hamburger.svg" alt="hamburger" />
+              </div>
+              <div id="close" class="icon-btn hidden">
+                <img src="images/icon-close.svg" alt="close" />
+              </div>
             </div>
           </div>
+          <div class="overlay">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#career">Careers</a></li>
+            </ul>
+          </div>
+        </div>
 
-          <div class="deskNavbar">
+        <div class="deskNavbar">
+          <div class="deskNavbarcontainer">
             <div class="logo">
               <img src="./images/logo-dark.svg" alt="Digitalbank" />
             </div>
@@ -53,27 +53,35 @@
               <button>Request Invite</button>
             </div>
           </div>
-        </nav>
-        <div class="intro">
-          <div class="image">
-            <img src="images\image-mockups.png" alt="mobile-mock-up" />
-          </div>
-          <div class="bg-image">
-            <img src="./images/bg-intro-desktop.svg" alt="mobile" />
-          </div>
-          <div class="text">
-            <h1>Next generation digital banking</h1>
-            <p>
-              Take your financial life online. Your Digitalbank account will be
-              a one-stop-shop for spending, saving, budgeting, investing, and
-              much more.
-            </p>
-            <button>Request Invite</button>
+        </div>
+      </nav>
+
+      <div class="intro-container">
+        <div class="wrapper">
+          <div class="intro">
+            <div class="image">
+              <img src="images\image-mockups.png" alt="mobile-mock-up" />
+            </div>
+            <div class="bg-image">
+              <img src="./images/bg-intro-desktop.svg" alt="mobile" />
+            </div>
+            <div class="text">
+              <h1>Next generation digital banking</h1>
+              <p>
+                Take your financial life online. Your Digitalbank account will
+                be a one-stop-shop for spending, saving, budgeting, investing,
+                and much more.
+              </p>
+              <button>Request Invite</button>
+            </div>
           </div>
         </div>
-      </header>
-      <main>
-        <div class="container">
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="wrapper">
           <div class="title">
             <h2>Why choose Digitalbank?</h2>
             <p>
@@ -126,7 +134,10 @@
             </div>
           </div>
         </div>
-        <div class="article">
+      </div>
+
+      <div class="article">
+        <div class="wrapper">
           <h2>Latest Articles</h2>
           <div class="article-container">
             <div class="blog">
@@ -185,8 +196,10 @@
             </div>
           </div>
         </div>
-      </main>
-      <footer>
+      </div>
+    </main>
+    <footer>
+      <div class="wrapper">
         <div class="footer-container">
           <div>
             <div class="logo">
@@ -224,8 +237,9 @@
             <p>© Digitalbank. All Rights Reserved</p>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
+
     <script src="main.js"></script>
   </body>
 </html>
